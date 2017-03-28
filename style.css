@@ -1,0 +1,119 @@
+/* style.css */
+
+/* ANIMATIONS
+============================================================================= */
+
+/* leaving animations ----------------------------------------- */
+/* rotate and fall */
+@keyframes rotateFall {
+    0%      { transform: rotateZ(0deg); }
+    20%     { transform: rotateZ(10deg); animation-timing-function: ease-out; }
+    40%     { transform: rotateZ(17deg); }
+    60%     { transform: rotateZ(16deg); }
+    100%    { transform: translateY(100%) rotateZ(17deg); }
+}
+
+
+@keyframes slideInLeft {
+    /*to      { transform: translateX(-100%); }*/
+    from    { transform:translateX(-100%); }
+    to      { transform: translateX(0); }
+}
+
+@keyframes slideOutLeft {
+    /*to      { transform: translateX(-100%); }*/
+    from    { transform:translateX(0); }
+    to      { transform: translateX(-100%); }
+
+}
+
+/* rotate out newspaper */
+@keyframes rotateOutNewspaper {
+    to      { transform: translateZ(-3000px) rotateZ(360deg); opacity: 0; }
+}
+
+/* entering animations --------------------------------------- */
+/* scale up */
+@keyframes scaleUp {
+    from    { opacity: 0.3; -webkit-transform: scale(0.8); }
+}
+
+/* slide in from the right */
+@keyframes slideInRight {
+    from    { transform:translateX(100%); }
+    to      { transform: translateX(0); }
+}
+
+/* slide out to the right */
+@keyframes slideOutRight {
+    from    { transform:translateX(0); }
+    to      { transform: translateX(100%); }
+}
+
+
+/* slide in from the bottom */
+@keyframes slideInUp {
+    from    { transform:translateY(100%); }
+    to      { transform: translateY(0); }
+}
+
+
+
+/*.page-import.ng-enter           { animation: slideInRight 0.5s both ease-in; z-index: 8888; }*/
+/*.page-import.ng-leave           { animation: slideOutRight 0.5s both ease-in; z-index: 9999; }*/
+
+/*.page-kit.ng-enter           { animation: slideInLeft 0.5s both ease-in;  }*/
+/*.page-kit.ng-leave           { animation: slideOutLeft 0.5s both ease-in;  }*/
+
+
+/*.page-import.ng-enter           { animation: slideInRight 0.5s both ease-in;  }*/
+/*.page-import.ng-leave           { animation: slideOutRight 0.5s both ease-in;  }*/
+
+
+h4 {
+    font-size: 32px;
+}
+
+.btn-info.active
+{
+    background-color: #014f6b;
+}
+
+input[type="checkbox"].pcheck {
+    position:absolute;
+    clip:rect(0,0,0,0);
+    pointer-events: none;
+}
+
+.btn-lg {
+    padding-top: 35px;
+    padding-bottom: 35px;
+    font-size: 20px;
+}
+
+.row {
+    margin:10px 0 10px;
+}
+
+.col-xs-4, .col-xs-6, .col-xs-8, .col-xs-12 {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.ride-picker {
+    height: 90px;
+    font-size: 20px;
+}
+
+.btn.btn-default.btn-lg.btn-block {
+    font-size: 20px;
+}
+
+.ct-series-a .ct-bar {
+    stroke: #862197;
+}
+
+#riderScoreboardChart .ct-series-a .ct-bar {
+    /*stroke: #0d87e9;*/
+    stroke: #4caf50;
+}

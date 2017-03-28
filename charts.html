@@ -1,0 +1,35 @@
+
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4">
+                <div class="well">
+<!--                    <h1 style="text-align:center">${{costPerRide}}<small>/ride</small></h1>-->
+                    <h1 style="text-align:center; font-size:56px;">$<span odometer="costPerRide" odometer-options="{duration: 7500}" /><small>/ride</small></h1>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-6">
+                <div class="thumbnail" style="text-align: center">
+                    <h5>Ride Popularity</h5>
+                    <canvas id="ridePopularity" class="chart chart-horizontal-bar" chart-data="ridePopularityData" chart-labels="ridePopularityLabels" chart-series="ridePopularitySeries" chart-options="ridePopularityOptions"  />
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6">
+                <div class="thumbnail" style="text-align: center">
+                    <h5>Ride Popularity</h5>
+                    <canvas id="ridePopularityPie" class="chart chart-pie" chart-data="ridePopularityPieData" chart-labels="ridePopularityPieLabels"   />
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6">
+                <div class="thumbnail" style="text-align: center">
+                    <h5>Rider Scoreboard</h5>
+                    <canvas id="riderScoreboard" class="chart chart-bar" chart-data="riderScoreboardData" chart-labels="riderScoreboardLabels" chart-series="riderScoreboardSeries" chart-options="riderScoreboardOptions" chart-colors="riderScoreboardColors" />
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6">
+                <div class="thumbnail" style="text-align: center">
+                    <h5>Rides/Visit</h5>
+                    <canvas id="visitPersonRides" class="chart chart-bar" chart-data="visitPersonRidesData" chart-labels="visitPersonRidesLabels" chart-series="visitPersonRidesSeries" chart-options="visitPersonRidesOptions"  />
+                </div>
+            </div>
+        </div>

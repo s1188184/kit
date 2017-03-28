@@ -1,0 +1,75 @@
+
+<!--<div class="row">-->
+    <!--<div class="col-xs-12">-->
+        <!--<a class="btn btn-warning btn-block btn-lg" href="#/"><i class="fa fa-arrow-left" aria-hidden="true"></i>&nbsp;Back</a>-->
+    <!--</div>-->
+<!--</div>-->
+
+<!--
+<div class="row">
+    <div class="col-xs-4">
+        <a class="btn btn-default btn-lg btn-block" href="#/import"><i class="fa fa-download" aria-hidden="true"></i>&nbsp;Import</a>
+    </div>
+    <div class="col-xs-4">
+        <a class="btn btn-default btn-lg btn-block" href="#/export"><i class="fa fa-upload" aria-hidden="true"></i>&nbsp;Export</a>
+    </div>
+    <div class="col-xs-4">
+        <a class="btn btn-default btn-lg btn-block" href="#/charts"><i class="fa fa-bar-chart" aria-hidden="true"></i>&nbsp;Charts</a>
+    </div>
+</div>
+-->
+
+<div class="row">
+    <div class="col-xs-12">
+        <div>
+            <button class="btn btn-warning btn-xs" ng-show="filterTerm.d" ng-click="filterTerm.d=undefined;"><span class="glyphicon glyphicon-remove"></span> {{formatDate(filterTerm.d)}}</button> 
+            <button class="btn btn-warning btn-xs" ng-show="filterTerm.t" ng-click="filterTerm.t=undefined;"><span class="glyphicon glyphicon-remove"></span> {{formatTime(filterTerm.t)}}</button> 
+            <button class="btn btn-warning btn-xs" ng-show="filterTerm.ride" ng-click="filterTerm.ride=undefined;"><span class="glyphicon glyphicon-remove"></span> {{filterTerm.ride}}</button> 
+            <button class="btn btn-warning btn-xs" ng-show="filterTerm.person" ng-click="filterTerm.person=undefined;"><span class="glyphicon glyphicon-remove"></span> {{filterTerm.person}}</button>
+        </div>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>
+                        <a ng-click="sortType='time'; sortReverse = !sortReverse;">Date 
+                            <span ng-show="sortType == 'time' && !sortReverse" class="fa fa-caret-down"></span>
+                            <span ng-show="sortType == 'time' && sortReverse" class="fa fa-caret-up"></span>
+                        </a>
+                    </th>
+                    <th>
+                        <a ng-click="sortType='ride'; sortReverse = !sortReverse;">Ride 
+                            <span ng-show="sortType == 'ride' && !sortReverse" class="fa fa-caret-down"></span>
+                            <span ng-show="sortType == 'ride' && sortReverse" class="fa fa-caret-up"></span>
+                        </a>
+                    </th>
+                    <th>
+                        <a ng-click="sortType='person'; sortReverse = !sortReverse;">Person 
+                            <span ng-show="sortType == 'person' && !sortReverse" class="fa fa-caret-down"></span>
+                            <span ng-show="sortType == 'person' && sortReverse" class="fa fa-caret-up"></span>
+                        </a>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="pr in filteredRides | orderBy:sortType:sortReverse">
+                    <td>
+                        <a ng-click="filterTerm.d = pr.time">{{formatDate(pr.time)}}</a>, 
+                        <a ng-click="filterTerm.t = pr.time">{{formatTime(pr.time)}}</a>
+                    </td>
+                    <td><a ng-click="filterTerm.ride = pr.ride">{{pr.ride}}</a></td>
+                    <td><a ng-click="filterTerm.person = pr.person">{{pr.person}}</a></td>
+                </tr>
+            </tbody>
+        </table>
+        {{filteredRides.length}} person rides.
+    </div>
+</div>
+
+
+<div class="row">
+    <div class="col-xs-12">
+        <button class="btn btn-danger btn-lg btn-block" ng-click="clearAll()">
+            <i class="fa fa-trash" aria-hidden="true"></i>&nbsp;Clear All
+        </button>
+    </div>
+</div>
