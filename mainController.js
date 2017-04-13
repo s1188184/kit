@@ -163,8 +163,17 @@ app.controller('MainController', ['$scope', '$rootScope', '$http', function($sco
             $rootScope.personRides.push({person: 'Nolan', ride: kit.ride, time: now});
         }
 
+        // TODO: Need to add to firebase instead of localStorage
         localStorage.setItem('kitRides', JSON.stringify($rootScope.personRides));
-
+        $http.post('https://kings-island-tracker.firebaseio.com/personRides.json?auth=AIzaSyC7hxPayceWMopNlv98izCjmr9IHbx6RiA',{person: 'Nolan', ride: kit.ride, time: now})
+        .then(
+            function(response) {
+                console.log('post successfull!');
+            },
+            function(error) {
+                console.log(error);
+            }
+        );
 
         kit.resetForm();
 

@@ -1,0 +1,1843 @@
+{
+  "personRides" : [ {
+    "person" : "Tim",
+    "ride" : "Woodstock Gliders",
+    "time" : "2016-10-23T19:09:52.007Z"
+  }, {
+    "person" : "Jenny",
+    "ride" : "Woodstock Gliders",
+    "time" : "2016-10-23T19:09:52.007Z"
+  }, {
+    "person" : "Ally",
+    "ride" : "Woodstock Gliders",
+    "time" : "2016-10-23T19:09:52.007Z"
+  }, {
+    "person" : "Ryan",
+    "ride" : "Woodstock Gliders",
+    "time" : "2016-10-23T19:09:52.007Z"
+  }, {
+    "person" : "Logan",
+    "ride" : "Woodstock Gliders",
+    "time" : "2016-10-23T19:09:52.007Z"
+  }, {
+    "person" : "Nolan",
+    "ride" : "Woodstock Gliders",
+    "time" : "2016-10-23T19:09:52.007Z"
+  }, {
+    "person" : "Tim",
+    "ride" : "Flying Ace Arial Chase",
+    "time" : "2016-10-23T19:25:06.707Z"
+  }, {
+    "person" : "Ally",
+    "ride" : "Flying Ace Arial Chase",
+    "time" : "2016-10-23T19:25:06.707Z"
+  }, {
+    "person" : "Ryan",
+    "ride" : "Flying Ace Arial Chase",
+    "time" : "2016-10-23T19:25:06.707Z"
+  }, {
+    "person" : "Logan",
+    "ride" : "Flying Ace Arial Chase",
+    "time" : "2016-10-23T19:25:06.707Z"
+  }, {
+    "person" : "Tim",
+    "ride" : "Surf Dog",
+    "time" : "2016-10-23T19:57:26.567Z"
+  }, {
+    "person" : "Ally",
+    "ride" : "Surf Dog",
+    "time" : "2016-10-23T19:57:26.567Z"
+  }, {
+    "person" : "Ryan",
+    "ride" : "Surf Dog",
+    "time" : "2016-10-23T19:57:26.567Z"
+  }, {
+    "person" : "Logan",
+    "ride" : "Surf Dog",
+    "time" : "2016-10-23T19:57:26.567Z"
+  }, {
+    "person" : "Tim",
+    "ride" : "K.I. and Miami Valley Railroad",
+    "time" : "2016-10-23T20:48:29.670Z"
+  }, {
+    "person" : "Logan",
+    "ride" : "K.I. and Miami Valley Railroad",
+    "time" : "2016-10-23T20:48:29.670Z"
+  }, {
+    "person" : "Nolan",
+    "ride" : "K.I. and Miami Valley Railroad",
+    "time" : "2016-10-23T20:48:29.670Z"
+  }, {
+    "person" : "Tim",
+    "ride" : "Woodstock Express",
+    "time" : "2016-10-23T21:17:19.429Z"
+  }, {
+    "person" : "Ally",
+    "ride" : "Woodstock Express",
+    "time" : "2016-10-23T21:17:19.429Z"
+  }, {
+    "person" : "Ryan",
+    "ride" : "Woodstock Express",
+    "time" : "2016-10-23T21:17:19.429Z"
+  }, {
+    "person" : "Logan",
+    "ride" : "Woodstock Express",
+    "time" : "2016-10-23T21:17:19.429Z"
+  }, {
+    "person" : "Tim",
+    "ride" : "Racer",
+    "time" : "2016-10-23T21:59:18.738Z"
+  }, {
+    "person" : "Ally",
+    "ride" : "Racer",
+    "time" : "2016-10-23T21:59:18.738Z"
+  }, {
+    "person" : "Ryan",
+    "ride" : "Racer",
+    "time" : "2016-10-23T21:59:18.738Z"
+  }, {
+    "person" : "Tim",
+    "ride" : "Racer",
+    "time" : "2016-10-23T22:05:19.052Z"
+  }, {
+    "person" : "Ally",
+    "ride" : "Racer",
+    "time" : "2016-10-23T22:05:19.052Z"
+  }, {
+    "person" : "Ryan",
+    "ride" : "Racer",
+    "time" : "2016-10-23T22:05:19.052Z"
+  }, {
+    "person" : "Tim",
+    "ride" : "Backlot Stunt Coaster",
+    "time" : "2016-10-23T22:23:22.483Z"
+  }, {
+    "person" : "Ally",
+    "ride" : "Backlot Stunt Coaster",
+    "time" : "2016-10-23T22:23:22.483Z"
+  }, {
+    "person" : "Ryan",
+    "ride" : "Backlot Stunt Coaster",
+    "time" : "2016-10-23T22:23:22.483Z"
+  }, {
+    "person" : "Tim",
+    "ride" : "Dodgem",
+    "time" : "2016-10-23T22:28:46.217Z"
+  }, {
+    "person" : "Ally",
+    "ride" : "Dodgem",
+    "time" : "2016-10-23T22:28:46.217Z"
+  }, {
+    "person" : "Ryan",
+    "ride" : "Dodgem",
+    "time" : "2016-10-23T22:28:46.217Z"
+  }, {
+    "person" : "Tim",
+    "ride" : "Backlot Stunt Coaster",
+    "time" : "2016-10-23T22:31:01.735Z"
+  }, {
+    "person" : "Ally",
+    "ride" : "Backlot Stunt Coaster",
+    "time" : "2016-10-23T22:31:01.735Z"
+  }, {
+    "person" : "Ryan",
+    "ride" : "Backlot Stunt Coaster",
+    "time" : "2016-10-23T22:31:01.735Z"
+  }, {
+    "person" : "Tim",
+    "ride" : "Banshee",
+    "time" : "2016-10-23T22:55:42.112Z"
+  }, {
+    "person" : "Jenny",
+    "ride" : "Snoopy's Junction",
+    "time" : "2016-10-23T19:38:03.376Z"
+  }, {
+    "person" : "Nolan",
+    "ride" : "Snoopy's Junction",
+    "time" : "2016-10-23T19:38:03.376Z"
+  }, {
+    "person" : "Nolan",
+    "ride" : "Peanuts 500",
+    "time" : "2016-10-23T19:59:00.909Z"
+  }, {
+    "person" : "Jenny",
+    "ride" : "Beast",
+    "time" : "2016-10-23T21:17:38.209Z"
+  }, {
+    "person" : "Ally",
+    "ride" : "Beast",
+    "time" : "2016-10-23T21:17:38.209Z"
+  }, {
+    "person" : "Ryan",
+    "ride" : "Beast",
+    "time" : "2016-10-23T21:17:38.209Z"
+  }, {
+    "person" : "Jenny",
+    "ride" : "Great Pumpkin Coaster",
+    "time" : "2016-10-23T21:18:10.686Z"
+  }, {
+    "person" : "Nolan",
+    "ride" : "Great Pumpkin Coaster",
+    "time" : "2016-10-23T21:18:10.686Z"
+  }, {
+    "person" : "Jenny",
+    "ride" : "Character Carousel",
+    "time" : "2016-10-23T21:41:07.852Z"
+  }, {
+    "person" : "Nolan",
+    "ride" : "Character Carousel",
+    "time" : "2016-10-23T21:41:07.852Z"
+  }, {
+    "person" : "Jenny",
+    "ride" : "Snoopy's Space Buggies",
+    "time" : "2016-10-23T21:55:46.403Z"
+  }, {
+    "person" : "Logan",
+    "ride" : "Snoopy's Space Buggies",
+    "time" : "2016-10-23T21:55:46.403Z"
+  }, {
+    "person" : "Nolan",
+    "ride" : "Snoopy's Space Buggies",
+    "time" : "2016-10-23T21:55:46.403Z"
+  }, {
+    "person" : "Logan",
+    "ride" : "Snoopy vs Red Barron",
+    "time" : "2016-10-23T22:09:04.941Z"
+  }, {
+    "person" : "Nolan",
+    "ride" : "Snoopy vs Red Barron",
+    "time" : "2016-10-23T22:09:04.941Z"
+  }, {
+    "person" : "Jenny",
+    "ride" : "Grand Carousel",
+    "time" : "2016-10-23T22:53:09.463Z"
+  }, {
+    "person" : "Ally",
+    "ride" : "Grand Carousel",
+    "time" : "2016-10-23T22:53:09.463Z"
+  }, {
+    "person" : "Ryan",
+    "ride" : "Grand Carousel",
+    "time" : "2016-10-23T22:53:09.463Z"
+  }, {
+    "person" : "Logan",
+    "ride" : "Grand Carousel",
+    "time" : "2016-10-23T22:53:09.463Z"
+  }, {
+    "person" : "Nolan",
+    "ride" : "Grand Carousel",
+    "time" : "2016-10-23T22:53:09.463Z"
+  }, {
+    "person" : "Tim",
+    "ride" : "Woodstock Express",
+    "time" : 1461517418000
+  }, {
+    "person" : "Ryan",
+    "ride" : "Woodstock Express",
+    "time" : 1461517418000
+  }, {
+    "person" : "Ally",
+    "ride" : "Woodstock Express",
+    "time" : 1461517418000
+  }, {
+    "person" : "Logan",
+    "ride" : "Woodstock Express",
+    "time" : 1461517418000
+  }, {
+    "person" : "Tim",
+    "ride" : "Surf Dog",
+    "time" : 1461517443000
+  }, {
+    "person" : "Ally",
+    "ride" : "Surf Dog",
+    "time" : 1461517443000
+  }, {
+    "person" : "Ryan",
+    "ride" : "Surf Dog",
+    "time" : 1461517443000
+  }, {
+    "person" : "Logan",
+    "ride" : "Surf Dog",
+    "time" : 1461517443000
+  }, {
+    "person" : "Tim",
+    "ride" : "Racer",
+    "time" : 1461517461000
+  }, {
+    "person" : "Ally",
+    "ride" : "Racer",
+    "time" : 1461517461000
+  }, {
+    "person" : "Ryan",
+    "ride" : "Racer",
+    "time" : 1461517461000
+  }, {
+    "person" : "Tim",
+    "ride" : "Adventure Express",
+    "time" : 1461517477000
+  }, {
+    "person" : "Ally",
+    "ride" : "Adventure Express",
+    "time" : 1461517477000
+  }, {
+    "person" : "Ryan",
+    "ride" : "Adventure Express",
+    "time" : 1461517477000
+  }, {
+    "person" : "Tim",
+    "ride" : "Great Pumpkin Coaster",
+    "time" : 1461517505000
+  }, {
+    "person" : "Ally",
+    "ride" : "Great Pumpkin Coaster",
+    "time" : 1461517505000
+  }, {
+    "person" : "Ryan",
+    "ride" : "Great Pumpkin Coaster",
+    "time" : 1461517505000
+  }, {
+    "person" : "Logan",
+    "ride" : "Great Pumpkin Coaster",
+    "time" : 1461517505000
+  }, {
+    "person" : "Tim",
+    "ride" : "Race For Your Life Charlie Brown",
+    "time" : 1461517523000
+  }, {
+    "person" : "Ally",
+    "ride" : "Race For Your Life Charlie Brown",
+    "time" : 1461517523000
+  }, {
+    "person" : "Ryan",
+    "ride" : "Race For Your Life Charlie Brown",
+    "time" : 1461517523000
+  }, {
+    "person" : "Jenny",
+    "ride" : "Snoopy's Junction",
+    "time" : 1461517547000
+  }, {
+    "person" : "Nolan",
+    "ride" : "Snoopy's Junction",
+    "time" : 1461517547000
+  }, {
+    "person" : "Jenny",
+    "ride" : "Snoopy's Junction",
+    "time" : 1461517566000
+  }, {
+    "person" : "Ally",
+    "ride" : "Snoopy's Junction",
+    "time" : 1461517566000
+  }, {
+    "person" : "Logan",
+    "ride" : "Snoopy's Junction",
+    "time" : 1461517566000
+  }, {
+    "person" : "Nolan",
+    "ride" : "Snoopy's Junction",
+    "time" : 1461517566000
+  }, {
+    "person" : "Jenny",
+    "ride" : "Woodstock's Whirlybirds",
+    "time" : 1461517585000
+  }, {
+    "person" : "Nolan",
+    "ride" : "Woodstock's Whirlybirds",
+    "time" : 1461517585000
+  }, {
+    "person" : "Jenny",
+    "ride" : "Grand Carousel",
+    "time" : 1461517602000
+  }, {
+    "person" : "Logan",
+    "ride" : "Grand Carousel",
+    "time" : 1461517602000
+  }, {
+    "person" : "Nolan",
+    "ride" : "Grand Carousel",
+    "time" : 1461517602000
+  }, {
+    "person" : "Jenny",
+    "ride" : "Grand Carousel",
+    "time" : 1461517607000
+  }, {
+    "person" : "Logan",
+    "ride" : "Grand Carousel",
+    "time" : 1461517607000
+  }, {
+    "person" : "Nolan",
+    "ride" : "Grand Carousel",
+    "time" : 1461517607000
+  }, {
+    "person" : "Logan",
+    "ride" : "Snoopy vs Red Barron",
+    "time" : 1461517635000
+  }, {
+    "person" : "Nolan",
+    "ride" : "Snoopy vs Red Barron",
+    "time" : 1461517635000
+  }, {
+    "person" : "Jenny",
+    "ride" : "Snoopy's Space Buggies",
+    "time" : 1461517656000
+  }, {
+    "person" : "Nolan",
+    "ride" : "Snoopy's Space Buggies",
+    "time" : 1461517656000
+  }, {
+    "person" : "Logan",
+    "ride" : "Linus' Beetle Bugs",
+    "time" : 1461517679000
+  }, {
+    "person" : "Nolan",
+    "ride" : "Linus' Beetle Bugs",
+    "time" : 1461517679000
+  }, {
+    "person" : "Jenny",
+    "ride" : "Character Carousel",
+    "time" : 1461517709000
+  }, {
+    "person" : "Logan",
+    "ride" : "Character Carousel",
+    "time" : 1461517709000
+  }, {
+    "person" : "Nolan",
+    "ride" : "Character Carousel",
+    "time" : 1461517709000
+  }, {
+    "person" : "Ryan",
+    "ride" : "Peanuts Off Road Rally",
+    "time" : 1461517736000
+  }, {
+    "person" : "Logan",
+    "ride" : "Peanuts Off Road Rally",
+    "time" : 1461517736000
+  }, {
+    "person" : "Nolan",
+    "ride" : "Peanuts Off Road Rally",
+    "time" : 1461517736000
+  }, {
+    "person" : "Jenny",
+    "ride" : "Woodstock Express",
+    "time" : 1461940100000
+  }, {
+    "person" : "Ally",
+    "ride" : "Woodstock Express",
+    "time" : 1461940100000
+  }, {
+    "person" : "Ryan",
+    "ride" : "Woodstock Express",
+    "time" : 1461940100000
+  }, {
+    "person" : "Logan",
+    "ride" : "Woodstock Express",
+    "time" : 1461940100000
+  }, {
+    "person" : "Tim",
+    "ride" : "Surf Dog",
+    "time" : 1461940131000
+  }, {
+    "person" : "Ally",
+    "ride" : "Surf Dog",
+    "time" : 1461940131000
+  }, {
+    "person" : "Ryan",
+    "ride" : "Surf Dog",
+    "time" : 1461940131000
+  }, {
+    "person" : "Tim",
+    "ride" : "Racer",
+    "time" : 1461940322000
+  }, {
+    "person" : "Ally",
+    "ride" : "Racer",
+    "time" : 1461940322000
+  }, {
+    "person" : "Ryan",
+    "ride" : "Racer",
+    "time" : 1461940322000
+  }, {
+    "person" : "Jenny",
+    "ride" : "Woodstock's Whirlybirds",
+    "time" : 1461940340000
+  }, {
+    "person" : "Logan",
+    "ride" : "Woodstock's Whirlybirds",
+    "time" : 1461940340000
+  }, {
+    "person" : "Nolan",
+    "ride" : "Woodstock's Whirlybirds",
+    "time" : 1461940340000
+  }, {
+    "person" : "Jenny",
+    "ride" : "Snoopy's Space Buggies",
+    "time" : 1461940371000
+  }, {
+    "person" : "Logan",
+    "ride" : "Snoopy's Space Buggies",
+    "time" : 1461940371000
+  }, {
+    "person" : "Nolan",
+    "ride" : "Snoopy's Space Buggies",
+    "time" : 1461940371000
+  }, {
+    "person" : "Logan",
+    "ride" : "Linus' Beetle Bugs",
+    "time" : 1461940391000
+  }, {
+    "person" : "Nolan",
+    "ride" : "Linus' Beetle Bugs",
+    "time" : 1461940391000
+  }, {
+    "person" : "Jenny",
+    "ride" : "Character Carousel",
+    "time" : 1461940415000
+  }, {
+    "person" : "Ally",
+    "ride" : "Character Carousel",
+    "time" : 1461940415000
+  }, {
+    "person" : "Ryan",
+    "ride" : "Character Carousel",
+    "time" : 1461940415000
+  }, {
+    "person" : "Logan",
+    "ride" : "Character Carousel",
+    "time" : 1461940415000
+  }, {
+    "person" : "Nolan",
+    "ride" : "Character Carousel",
+    "time" : 1461940415000
+  }, {
+    "person" : "Logan",
+    "ride" : "Peanuts Off Road Rally",
+    "time" : 1461940437000
+  }, {
+    "person" : "Nolan",
+    "ride" : "Peanuts Off Road Rally",
+    "time" : 1461940437000
+  }, {
+    "person" : "Tim",
+    "ride" : "Flying Ace Arial Chase",
+    "time" : 1461940454000
+  }, {
+    "person" : "Ally",
+    "ride" : "Flying Ace Arial Chase",
+    "time" : 1461940454000
+  }, {
+    "person" : "Ryan",
+    "ride" : "Flying Ace Arial Chase",
+    "time" : 1461940454000
+  }, {
+    "person" : "Tim",
+    "ride" : "Dodgem",
+    "time" : 1461940477000
+  }, {
+    "person" : "Ally",
+    "ride" : "Dodgem",
+    "time" : 1461940477000
+  }, {
+    "person" : "Ryan",
+    "ride" : "Dodgem",
+    "time" : 1461940477000
+  }, {
+    "person" : "Tim",
+    "ride" : "Shake, Rattle, and Roll",
+    "time" : 1461940492000
+  }, {
+    "person" : "Ally",
+    "ride" : "Shake, Rattle, and Roll",
+    "time" : 1461940492000
+  }, {
+    "person" : "Ryan",
+    "ride" : "Shake, Rattle, and Roll",
+    "time" : 1461940492000
+  }, {
+    "person" : "Ally",
+    "ride" : "Linus' Launcher",
+    "time" : 1461940509000
+  }, {
+    "person" : "Ryan",
+    "ride" : "Linus' Launcher",
+    "time" : 1461940509000
+  }, {
+    "person" : "Tim",
+    "ride" : "Diamondback",
+    "time" : 1461940521000
+  }, {
+    "person" : "Tim",
+    "ride" : "Backlot Stunt Coaster",
+    "time" : 1461940533000
+  }, {
+    "person" : "Ryan",
+    "ride" : "Backlot Stunt Coaster",
+    "time" : 1461940533000
+  }, {
+    "person" : "Jenny",
+    "ride" : "K.I. and Miami Valley Railroad",
+    "time" : 1461940550000
+  }, {
+    "person" : "Ally",
+    "ride" : "K.I. and Miami Valley Railroad",
+    "time" : 1461940550000
+  }, {
+    "person" : "Logan",
+    "ride" : "K.I. and Miami Valley Railroad",
+    "time" : 1461940550000
+  }, {
+    "person" : "Nolan",
+    "ride" : "K.I. and Miami Valley Railroad",
+    "time" : 1461940550000
+  }, {
+    "person" : "Logan",
+    "ride" : "Peanuts 500",
+    "time" : 1461940563000
+  }, {
+    "person" : "Nolan",
+    "ride" : "Peanuts 500",
+    "time" : 1461940563000
+  }, {
+    "person" : "Logan",
+    "ride" : "Joe Cool's Dodgem School",
+    "time" : 1461940586000
+  }, {
+    "person" : "Nolan",
+    "ride" : "Joe Cool's Dodgem School",
+    "time" : 1461940586000
+  }, {
+    "person" : "Logan",
+    "ride" : "Joe Cool's Dodgem School",
+    "time" : 1461940591000
+  }, {
+    "person" : "Nolan",
+    "ride" : "Joe Cool's Dodgem School",
+    "time" : 1461940591000
+  }, {
+    "person" : "Logan",
+    "ride" : "Charlie Brown's Wind Up",
+    "time" : 1461940628000
+  }, {
+    "person" : "Tim",
+    "ride" : "K.I. and Miami Valley Railroad",
+    "time" : 1462562284000
+  }, {
+    "person" : "Jenny",
+    "ride" : "K.I. and Miami Valley Railroad",
+    "time" : 1462562284000
+  }, {
+    "person" : "Ally",
+    "ride" : "K.I. and Miami Valley Railroad",
+    "time" : 1462562284000
+  }, {
+    "person" : "Ryan",
+    "ride" : "K.I. and Miami Valley Railroad",
+    "time" : 1462562284000
+  }, {
+    "person" : "Logan",
+    "ride" : "K.I. and Miami Valley Railroad",
+    "time" : 1462562284000
+  }, {
+    "person" : "Nolan",
+    "ride" : "K.I. and Miami Valley Railroad",
+    "time" : 1462562284000
+  }, {
+    "person" : "Tim",
+    "ride" : "Shake, Rattle, and Roll",
+    "time" : 1462563653000
+  }, {
+    "person" : "Jenny",
+    "ride" : "Shake, Rattle, and Roll",
+    "time" : 1462563653000
+  }, {
+    "person" : "Ally",
+    "ride" : "Shake, Rattle, and Roll",
+    "time" : 1462563653000
+  }, {
+    "person" : "Ryan",
+    "ride" : "Shake, Rattle, and Roll",
+    "time" : 1462563653000
+  }, {
+    "person" : "Logan",
+    "ride" : "Shake, Rattle, and Roll",
+    "time" : 1462563653000
+  }, {
+    "person" : "Tim",
+    "ride" : "Dinosaurs Alive",
+    "time" : 1462564644000
+  }, {
+    "person" : "Jenny",
+    "ride" : "Dinosaurs Alive",
+    "time" : 1462564644000
+  }, {
+    "person" : "Ally",
+    "ride" : "Dinosaurs Alive",
+    "time" : 1462564644000
+  }, {
+    "person" : "Ryan",
+    "ride" : "Dinosaurs Alive",
+    "time" : 1462564644000
+  }, {
+    "person" : "Logan",
+    "ride" : "Dinosaurs Alive",
+    "time" : 1462564644000
+  }, {
+    "person" : "Nolan",
+    "ride" : "Dinosaurs Alive",
+    "time" : 1462564644000
+  }, {
+    "person" : "Jenny",
+    "ride" : "Backlot Stunt Coaster",
+    "time" : 1462566899000
+  }, {
+    "person" : "Ally",
+    "ride" : "Backlot Stunt Coaster",
+    "time" : 1462566899000
+  }, {
+    "person" : "Ryan",
+    "ride" : "Backlot Stunt Coaster",
+    "time" : 1462566899000
+  }, {
+    "person" : "Tim",
+    "ride" : "Dodgem",
+    "time" : 1462567632000
+  }, {
+    "person" : "Ally",
+    "ride" : "Dodgem",
+    "time" : 1462567632000
+  }, {
+    "person" : "Ryan",
+    "ride" : "Dodgem",
+    "time" : 1462567632000
+  }, {
+    "person" : "Tim",
+    "ride" : "Grand Carousel",
+    "time" : 1462568869000
+  }, {
+    "person" : "Jenny",
+    "ride" : "Grand Carousel",
+    "time" : 1462568869000
+  }, {
+    "person" : "Ally",
+    "ride" : "Grand Carousel",
+    "time" : 1462568869000
+  }, {
+    "person" : "Ryan",
+    "ride" : "Grand Carousel",
+    "time" : 1462568869000
+  }, {
+    "person" : "Logan",
+    "ride" : "Grand Carousel",
+    "time" : 1462568869000
+  }, {
+    "person" : "Nolan",
+    "ride" : "Grand Carousel",
+    "time" : 1462568869000
+  }, {
+    "person" : "Tim",
+    "ride" : "Race For Your Life Charlie Brown",
+    "time" : 1462569872000
+  }, {
+    "person" : "Ally",
+    "ride" : "Race For Your Life Charlie Brown",
+    "time" : 1462569872000
+  }, {
+    "person" : "Ryan",
+    "ride" : "Joe Cool's Dodgem School",
+    "time" : 1462571512000
+  }, {
+    "person" : "Logan",
+    "ride" : "Joe Cool's Dodgem School",
+    "time" : 1462571512000
+  }, {
+    "person" : "Nolan",
+    "ride" : "Joe Cool's Dodgem School",
+    "time" : 1462571512000
+  }, {
+    "person" : "Jenny",
+    "ride" : "Snoopy's Space Buggies",
+    "time" : 1462571530000
+  }, {
+    "person" : "Ryan",
+    "ride" : "Snoopy's Space Buggies",
+    "time" : 1462571530000
+  }, {
+    "person" : "Logan",
+    "ride" : "Snoopy's Space Buggies",
+    "time" : 1462571530000
+  }, {
+    "person" : "Nolan",
+    "ride" : "Snoopy's Space Buggies",
+    "time" : 1462571530000
+  }, {
+    "person" : "Ryan",
+    "ride" : "Linus' Beetle Bugs",
+    "time" : 1462571556000
+  }, {
+    "person" : "Logan",
+    "ride" : "Linus' Beetle Bugs",
+    "time" : 1462571556000
+  }, {
+    "person" : "Nolan",
+    "ride" : "Linus' Beetle Bugs",
+    "time" : 1462571556000
+  }, {
+    "person" : "Nolan",
+    "ride" : "Peanuts Off Road Rally",
+    "time" : 1462572123000
+  }, {
+    "person" : "Tim",
+    "ride" : "Surf Dog",
+    "time" : 1462572163000
+  }, {
+    "person" : "Ally",
+    "ride" : "Surf Dog",
+    "time" : 1462572163000
+  }, {
+    "person" : "Ryan",
+    "ride" : "Surf Dog",
+    "time" : 1462572163000
+  }, {
+    "person" : "Logan",
+    "ride" : "Surf Dog",
+    "time" : 1462572163000
+  }, {
+    "person" : "Jenny",
+    "ride" : "Snoopy's Junction",
+    "time" : 1462572213000
+  }, {
+    "person" : "Nolan",
+    "ride" : "Snoopy's Junction",
+    "time" : 1462572213000
+  }, {
+    "person" : "Nolan",
+    "ride" : "Peanuts 500",
+    "time" : 1462573774000
+  }, {
+    "person" : "Jenny",
+    "ride" : "Snoopy's Junction",
+    "time" : 1462573798000
+  }, {
+    "person" : "Nolan",
+    "ride" : "Snoopy's Junction",
+    "time" : 1462573798000
+  }, {
+    "person" : "Tim",
+    "ride" : "Woodstock Express",
+    "time" : 1462574648000
+  }, {
+    "person" : "Ally",
+    "ride" : "Woodstock Express",
+    "time" : 1462574648000
+  }, {
+    "person" : "Ryan",
+    "ride" : "Woodstock Express",
+    "time" : 1462574648000
+  }, {
+    "person" : "Jenny",
+    "ride" : "Snoopy's Space Buggies",
+    "time" : 1462574678000
+  }, {
+    "person" : "Logan",
+    "ride" : "Snoopy's Space Buggies",
+    "time" : 1462574678000
+  }, {
+    "person" : "Nolan",
+    "ride" : "Snoopy's Space Buggies",
+    "time" : 1462574678000
+  }, {
+    "person" : "Tim",
+    "ride" : "Racer",
+    "time" : 1462575601000
+  }, {
+    "person" : "Ally",
+    "ride" : "Racer",
+    "time" : 1462575601000
+  }, {
+    "person" : "Ryan",
+    "ride" : "Racer",
+    "time" : 1462575601000
+  }, {
+    "person" : "Tim",
+    "ride" : "Adventure Express",
+    "time" : 1462576538000
+  }, {
+    "person" : "Ally",
+    "ride" : "Adventure Express",
+    "time" : 1462576538000
+  }, {
+    "person" : "Ryan",
+    "ride" : "Adventure Express",
+    "time" : 1462576538000
+  }, {
+    "person" : "Jenny",
+    "ride" : "Sally's Sea Plane",
+    "time" : 1462576841000
+  }, {
+    "person" : "Logan",
+    "ride" : "Sally's Sea Plane",
+    "time" : 1462576841000
+  }, {
+    "person" : "Nolan",
+    "ride" : "Sally's Sea Plane",
+    "time" : 1462576841000
+  }, {
+    "person" : "Jenny",
+    "ride" : "Character Carousel",
+    "time" : 1462576854000
+  }, {
+    "person" : "Logan",
+    "ride" : "Character Carousel",
+    "time" : 1462576854000
+  }, {
+    "person" : "Nolan",
+    "ride" : "Character Carousel",
+    "time" : 1462576854000
+  }, {
+    "person" : "Tim",
+    "ride" : "K.I. and Miami Valley Railroad",
+    "time" : 1463162916000
+  }, {
+    "person" : "Jenny",
+    "ride" : "K.I. and Miami Valley Railroad",
+    "time" : 1463162916000
+  }, {
+    "person" : "Ally",
+    "ride" : "K.I. and Miami Valley Railroad",
+    "time" : 1463162916000
+  }, {
+    "person" : "Ryan",
+    "ride" : "K.I. and Miami Valley Railroad",
+    "time" : 1463162916000
+  }, {
+    "person" : "Logan",
+    "ride" : "K.I. and Miami Valley Railroad",
+    "time" : 1463162916000
+  }, {
+    "person" : "Nolan",
+    "ride" : "K.I. and Miami Valley Railroad",
+    "time" : 1463162916000
+  }, {
+    "person" : "Tim",
+    "ride" : "Surf Dog",
+    "time" : 1463164109000
+  }, {
+    "person" : "Ally",
+    "ride" : "Surf Dog",
+    "time" : 1463164109000
+  }, {
+    "person" : "Ryan",
+    "ride" : "Surf Dog",
+    "time" : 1463164109000
+  }, {
+    "person" : "Logan",
+    "ride" : "Surf Dog",
+    "time" : 1463164109000
+  }, {
+    "person" : "Tim",
+    "ride" : "Woodstock Gliders",
+    "time" : 1463164927000
+  }, {
+    "person" : "Ally",
+    "ride" : "Woodstock Gliders",
+    "time" : 1463164927000
+  }, {
+    "person" : "Ryan",
+    "ride" : "Woodstock Gliders",
+    "time" : 1463164927000
+  }, {
+    "person" : "Logan",
+    "ride" : "Woodstock Gliders",
+    "time" : 1463164927000
+  }, {
+    "person" : "Logan",
+    "ride" : "Joe Cool's Dodgem School",
+    "time" : 1463168922000
+  }, {
+    "person" : "Nolan",
+    "ride" : "Joe Cool's Dodgem School",
+    "time" : 1463168922000
+  }, {
+    "person" : "Tim",
+    "ride" : "Racer",
+    "time" : 1463170093000
+  }, {
+    "person" : "Ally",
+    "ride" : "Racer",
+    "time" : 1463170093000
+  }, {
+    "person" : "Ryan",
+    "ride" : "Racer",
+    "time" : 1463170093000
+  }, {
+    "person" : "Tim",
+    "ride" : "Dodgem",
+    "time" : 1463172978000
+  }, {
+    "person" : "Ally",
+    "ride" : "Dodgem",
+    "time" : 1463172978000
+  }, {
+    "person" : "Ryan",
+    "ride" : "Dodgem",
+    "time" : 1463172978000
+  }, {
+    "person" : "Tim",
+    "ride" : "Shake, Rattle, and Roll",
+    "time" : 1463174232000
+  }, {
+    "person" : "Ally",
+    "ride" : "Shake, Rattle, and Roll",
+    "time" : 1463174232000
+  }, {
+    "person" : "Ryan",
+    "ride" : "Shake, Rattle, and Roll",
+    "time" : 1463174232000
+  }, {
+    "person" : "Jenny",
+    "ride" : "Shake, Rattle, and Roll",
+    "time" : 1463174611000
+  }, {
+    "person" : "Logan",
+    "ride" : "Shake, Rattle, and Roll",
+    "time" : 1463174611000
+  }, {
+    "person" : "Jenny",
+    "ride" : "Sally's Sea Plane",
+    "time" : 1463166127000
+  }, {
+    "person" : "Ally",
+    "ride" : "Sally's Sea Plane",
+    "time" : 1463166127000
+  }, {
+    "person" : "Ryan",
+    "ride" : "Sally's Sea Plane",
+    "time" : 1463166127000
+  }, {
+    "person" : "Logan",
+    "ride" : "Sally's Sea Plane",
+    "time" : 1463166127000
+  }, {
+    "person" : "Nolan",
+    "ride" : "Sally's Sea Plane",
+    "time" : 1463166127000
+  }, {
+    "person" : "Jenny",
+    "ride" : "Snoopy's Space Buggies",
+    "time" : 1463166609000
+  }, {
+    "person" : "Ally",
+    "ride" : "Snoopy's Space Buggies",
+    "time" : 1463166609000
+  }, {
+    "person" : "Ryan",
+    "ride" : "Snoopy's Space Buggies",
+    "time" : 1463166609000
+  }, {
+    "person" : "Logan",
+    "ride" : "Snoopy's Space Buggies",
+    "time" : 1463166609000
+  }, {
+    "person" : "Nolan",
+    "ride" : "Snoopy's Space Buggies",
+    "time" : 1463166609000
+  }, {
+    "person" : "Logan",
+    "ride" : "Peanuts 500",
+    "time" : 1463167298000
+  }, {
+    "person" : "Nolan",
+    "ride" : "Peanuts 500",
+    "time" : 1463167298000
+  }, {
+    "person" : "Jenny",
+    "ride" : "Woodstock Express",
+    "time" : 1463168308000
+  }, {
+    "person" : "Ally",
+    "ride" : "Woodstock Express",
+    "time" : 1463168308000
+  }, {
+    "person" : "Ryan",
+    "ride" : "Woodstock Express",
+    "time" : 1463168308000
+  }, {
+    "person" : "Logan",
+    "ride" : "Linus' Beetle Bugs",
+    "time" : 1463169627000
+  }, {
+    "person" : "Nolan",
+    "ride" : "Linus' Beetle Bugs",
+    "time" : 1463169627000
+  }, {
+    "person" : "Jenny",
+    "ride" : "Snoopy's Junction",
+    "time" : 1463170636000
+  }, {
+    "person" : "Logan",
+    "ride" : "Snoopy's Junction",
+    "time" : 1463170636000
+  }, {
+    "person" : "Nolan",
+    "ride" : "Snoopy's Junction",
+    "time" : 1463170636000
+  }, {
+    "person" : "Logan",
+    "ride" : "Peanuts Off Road Rally",
+    "time" : 1463170744000
+  }, {
+    "person" : "Nolan",
+    "ride" : "Peanuts Off Road Rally",
+    "time" : 1463170744000
+  }, {
+    "person" : "Jenny",
+    "ride" : "Character Carousel",
+    "time" : 1463171218000
+  }, {
+    "person" : "Logan",
+    "ride" : "Character Carousel",
+    "time" : 1463171218000
+  }, {
+    "person" : "Nolan",
+    "ride" : "Character Carousel",
+    "time" : 1463171218000
+  }, {
+    "person" : "Tim",
+    "ride" : "Race For Your Life Charlie Brown",
+    "time" : "2016-06-24T20:26:47.620Z"
+  }, {
+    "person" : "Ally",
+    "ride" : "Race For Your Life Charlie Brown",
+    "time" : "2016-06-24T20:26:47.620Z"
+  }, {
+    "person" : "Ryan",
+    "ride" : "Race For Your Life Charlie Brown",
+    "time" : "2016-06-24T20:26:47.620Z"
+  }, {
+    "person" : "Logan",
+    "ride" : "Race For Your Life Charlie Brown",
+    "time" : "2016-06-24T20:26:47.620Z"
+  }, {
+    "person" : "Tim",
+    "ride" : "Surf Dog",
+    "time" : "2016-06-24T20:50:23.647Z"
+  }, {
+    "person" : "Ally",
+    "ride" : "Surf Dog",
+    "time" : "2016-06-24T20:50:23.647Z"
+  }, {
+    "person" : "Ryan",
+    "ride" : "Surf Dog",
+    "time" : "2016-06-24T20:50:23.647Z"
+  }, {
+    "person" : "Logan",
+    "ride" : "Surf Dog",
+    "time" : "2016-06-24T20:50:23.647Z"
+  }, {
+    "person" : "Tim",
+    "ride" : "Woodstock Gliders",
+    "time" : "2016-06-25T00:33:55.601Z"
+  }, {
+    "person" : "Jenny",
+    "ride" : "Woodstock Gliders",
+    "time" : "2016-06-25T00:33:55.601Z"
+  }, {
+    "person" : "Ally",
+    "ride" : "Woodstock Gliders",
+    "time" : "2016-06-25T00:33:55.601Z"
+  }, {
+    "person" : "Ryan",
+    "ride" : "Woodstock Gliders",
+    "time" : "2016-06-25T00:33:55.601Z"
+  }, {
+    "person" : "Logan",
+    "ride" : "Woodstock Gliders",
+    "time" : "2016-06-25T00:33:55.601Z"
+  }, {
+    "person" : "Nolan",
+    "ride" : "Woodstock Gliders",
+    "time" : "2016-06-25T00:33:55.601Z"
+  }, {
+    "person" : "Tim",
+    "ride" : "Grand Carousel",
+    "time" : "2016-06-25T01:17:55.582Z"
+  }, {
+    "person" : "Logan",
+    "ride" : "Grand Carousel",
+    "time" : "2016-06-25T01:17:55.582Z"
+  }, {
+    "person" : "Nolan",
+    "ride" : "Grand Carousel",
+    "time" : "2016-06-25T01:17:55.582Z"
+  }, {
+    "person" : "Tim",
+    "ride" : "Shake, Rattle, and Roll",
+    "time" : "2016-06-25T01:53:56.083Z"
+  }, {
+    "person" : "Jenny",
+    "ride" : "Shake, Rattle, and Roll",
+    "time" : "2016-06-25T01:53:56.083Z"
+  }, {
+    "person" : "Ally",
+    "ride" : "Shake, Rattle, and Roll",
+    "time" : "2016-06-25T01:53:56.083Z"
+  }, {
+    "person" : "Ryan",
+    "ride" : "Shake, Rattle, and Roll",
+    "time" : "2016-06-25T01:53:56.083Z"
+  }, {
+    "person" : "Logan",
+    "ride" : "Shake, Rattle, and Roll",
+    "time" : "2016-06-25T01:53:56.083Z"
+  }, {
+    "person" : "Nolan",
+    "ride" : "Snoopy vs Red Barron",
+    "time" : "2016-06-24T20:05:21.916Z"
+  }, {
+    "person" : "Nolan",
+    "ride" : "Peanuts 500",
+    "time" : "2016-06-24T20:05:32.652Z"
+  }, {
+    "person" : "Jenny",
+    "ride" : "Snoopy's Space Buggies",
+    "time" : "2016-06-24T20:25:36.027Z"
+  }, {
+    "person" : "Nolan",
+    "ride" : "Snoopy's Space Buggies",
+    "time" : "2016-06-24T20:25:36.027Z"
+  }, {
+    "person" : "Jenny",
+    "ride" : "K.I. and Miami Valley Railroad",
+    "time" : "2016-06-24T21:23:19.315Z"
+  }, {
+    "person" : "Nolan",
+    "ride" : "K.I. and Miami Valley Railroad",
+    "time" : "2016-06-24T21:23:19.315Z"
+  }, {
+    "person" : "Logan",
+    "ride" : "Linus' Launcher",
+    "time" : "2016-06-24T21:28:38.267Z"
+  }, {
+    "person" : "Logan",
+    "ride" : "Linus' Beetle Bugs",
+    "time" : "2016-06-24T21:44:57.649Z"
+  }, {
+    "person" : "Nolan",
+    "ride" : "Linus' Beetle Bugs",
+    "time" : "2016-06-24T21:44:57.649Z"
+  }, {
+    "person" : "Logan",
+    "ride" : "Peanuts Off Road Rally",
+    "time" : "2016-06-24T21:56:10.450Z"
+  }, {
+    "person" : "Nolan",
+    "ride" : "Peanuts Off Road Rally",
+    "time" : "2016-06-24T21:56:10.450Z"
+  }, {
+    "person" : "Jenny",
+    "ride" : "Snoopy's Junction",
+    "time" : "2016-06-24T22:04:58.821Z"
+  }, {
+    "person" : "Logan",
+    "ride" : "Snoopy's Junction",
+    "time" : "2016-06-24T22:04:58.821Z"
+  }, {
+    "person" : "Nolan",
+    "ride" : "Snoopy's Junction",
+    "time" : "2016-06-24T22:04:58.821Z"
+  }, {
+    "person" : "Ryan",
+    "ride" : "Snoopy vs Red Barron",
+    "time" : "2016-06-25T00:31:55.046Z"
+  }, {
+    "person" : "Logan",
+    "ride" : "Snoopy vs Red Barron",
+    "time" : "2016-06-25T00:31:55.046Z"
+  }, {
+    "person" : "Nolan",
+    "ride" : "Snoopy vs Red Barron",
+    "time" : "2016-06-25T00:31:55.046Z"
+  }, {
+    "person" : "Jenny",
+    "ride" : "Backlot Stunt Coaster",
+    "time" : "2016-06-25T01:13:26.572Z"
+  }, {
+    "person" : "Ally",
+    "ride" : "Backlot Stunt Coaster",
+    "time" : "2016-06-25T01:13:26.572Z"
+  }, {
+    "person" : "Ryan",
+    "ride" : "Backlot Stunt Coaster",
+    "time" : "2016-06-25T01:13:26.572Z"
+  }, {
+    "person" : "Tim",
+    "ride" : "Racer",
+    "time" : "2016-07-21T01:16:43.343Z"
+  }, {
+    "person" : "Ally",
+    "ride" : "Racer",
+    "time" : "2016-07-21T01:16:43.343Z"
+  }, {
+    "person" : "Ryan",
+    "ride" : "Racer",
+    "time" : "2016-07-21T01:16:43.343Z"
+  }, {
+    "person" : "Tim",
+    "ride" : "Backlot Stunt Coaster",
+    "time" : "2016-07-21T01:30:23.562Z"
+  }, {
+    "person" : "Ally",
+    "ride" : "Backlot Stunt Coaster",
+    "time" : "2016-07-21T01:30:23.562Z"
+  }, {
+    "person" : "Ryan",
+    "ride" : "Backlot Stunt Coaster",
+    "time" : "2016-07-21T01:30:23.562Z"
+  }, {
+    "person" : "Tim",
+    "ride" : "Character Carousel",
+    "time" : "2016-07-21T01:50:46.297Z"
+  }, {
+    "person" : "Jenny",
+    "ride" : "Character Carousel",
+    "time" : "2016-07-21T01:50:46.297Z"
+  }, {
+    "person" : "Ally",
+    "ride" : "Character Carousel",
+    "time" : "2016-07-21T01:50:46.297Z"
+  }, {
+    "person" : "Ryan",
+    "ride" : "Character Carousel",
+    "time" : "2016-07-21T01:50:46.297Z"
+  }, {
+    "person" : "Logan",
+    "ride" : "Character Carousel",
+    "time" : "2016-07-21T01:50:46.297Z"
+  }, {
+    "person" : "Nolan",
+    "ride" : "Character Carousel",
+    "time" : "2016-07-21T01:50:46.297Z"
+  }, {
+    "person" : "Tim",
+    "ride" : "Great Pumpkin Coaster",
+    "time" : "2016-07-21T02:01:44.579Z"
+  }, {
+    "person" : "Jenny",
+    "ride" : "Great Pumpkin Coaster",
+    "time" : "2016-07-21T02:01:44.579Z"
+  }, {
+    "person" : "Ally",
+    "ride" : "Great Pumpkin Coaster",
+    "time" : "2016-07-21T02:01:44.579Z"
+  }, {
+    "person" : "Ryan",
+    "ride" : "Great Pumpkin Coaster",
+    "time" : "2016-07-21T02:01:44.579Z"
+  }, {
+    "person" : "Logan",
+    "ride" : "Great Pumpkin Coaster",
+    "time" : "2016-07-21T02:01:44.579Z"
+  }, {
+    "person" : "Nolan",
+    "ride" : "Great Pumpkin Coaster",
+    "time" : "2016-07-21T02:01:44.579Z"
+  }, {
+    "person" : "Jenny",
+    "ride" : "K.I. and Miami Valley Railroad",
+    "time" : "2016-07-21T02:25:46.014Z"
+  }, {
+    "person" : "Logan",
+    "ride" : "K.I. and Miami Valley Railroad",
+    "time" : "2016-07-21T02:25:46.014Z"
+  }, {
+    "person" : "Nolan",
+    "ride" : "K.I. and Miami Valley Railroad",
+    "time" : "2016-07-21T02:25:46.014Z"
+  }, {
+    "person" : "Logan",
+    "ride" : "Snoopy vs Red Barron",
+    "time" : "2016-07-21T02:26:05.135Z"
+  }, {
+    "person" : "Nolan",
+    "ride" : "Snoopy vs Red Barron",
+    "time" : "2016-07-21T02:26:05.135Z"
+  }, {
+    "person" : "Jenny",
+    "ride" : "Snoopy's Space Buggies",
+    "time" : "2016-07-21T02:26:15.919Z"
+  }, {
+    "person" : "Logan",
+    "ride" : "Snoopy's Space Buggies",
+    "time" : "2016-07-21T02:26:15.919Z"
+  }, {
+    "person" : "Nolan",
+    "ride" : "Snoopy's Space Buggies",
+    "time" : "2016-07-21T02:26:15.919Z"
+  }, {
+    "person" : "Logan",
+    "ride" : "Linus' Beetle Bugs",
+    "time" : "2016-07-21T02:26:47.461Z"
+  }, {
+    "person" : "Nolan",
+    "ride" : "Linus' Beetle Bugs",
+    "time" : "2016-07-21T02:26:47.461Z"
+  }, {
+    "person" : "Tim",
+    "ride" : "Congo Falls",
+    "time" : "2016-08-04T23:36:24.558Z"
+  }, {
+    "person" : "Ally",
+    "ride" : "Congo Falls",
+    "time" : "2016-08-04T23:36:24.558Z"
+  }, {
+    "person" : "Ryan",
+    "ride" : "Congo Falls",
+    "time" : "2016-08-04T23:36:24.558Z"
+  }, {
+    "person" : "Jenny",
+    "ride" : "Race For Your Life Charlie Brown",
+    "time" : "2016-08-04T23:36:49.572Z"
+  }, {
+    "person" : "Ally",
+    "ride" : "Race For Your Life Charlie Brown",
+    "time" : "2016-08-04T23:36:49.572Z"
+  }, {
+    "person" : "Ryan",
+    "ride" : "Race For Your Life Charlie Brown",
+    "time" : "2016-08-04T23:36:49.572Z"
+  }, {
+    "person" : "Nolan",
+    "ride" : "Race For Your Life Charlie Brown",
+    "time" : "2016-08-04T23:36:49.572Z"
+  }, {
+    "person" : "Tim",
+    "ride" : "Race For Your Life Charlie Brown",
+    "time" : "2016-08-04T23:55:46.348Z"
+  }, {
+    "person" : "Ally",
+    "ride" : "Race For Your Life Charlie Brown",
+    "time" : "2016-08-04T23:55:46.348Z"
+  }, {
+    "person" : "Nolan",
+    "ride" : "Race For Your Life Charlie Brown",
+    "time" : "2016-08-04T23:55:46.348Z"
+  }, {
+    "person" : "Logan",
+    "ride" : "Joe Cool's Dodgem School",
+    "time" : "2016-08-05T00:05:21.588Z"
+  }, {
+    "person" : "Nolan",
+    "ride" : "Joe Cool's Dodgem School",
+    "time" : "2016-08-05T00:05:21.588Z"
+  }, {
+    "person" : "Logan",
+    "ride" : "Charlie Brown's Wind Up",
+    "time" : "2016-08-05T00:19:43.770Z"
+  }, {
+    "person" : "Nolan",
+    "ride" : "Charlie Brown's Wind Up",
+    "time" : "2016-08-05T00:19:43.770Z"
+  }, {
+    "person" : "Logan",
+    "ride" : "Snoopy vs Red Barron",
+    "time" : "2016-08-05T00:29:41.768Z"
+  }, {
+    "person" : "Nolan",
+    "ride" : "Snoopy vs Red Barron",
+    "time" : "2016-08-05T00:29:41.768Z"
+  }, {
+    "person" : "Jenny",
+    "ride" : "Beast",
+    "time" : "2016-08-05T00:42:24.315Z"
+  }, {
+    "person" : "Ally",
+    "ride" : "Beast",
+    "time" : "2016-08-05T00:42:24.315Z"
+  }, {
+    "person" : "Ryan",
+    "ride" : "Beast",
+    "time" : "2016-08-05T00:42:24.315Z"
+  }, {
+    "person" : "Tim",
+    "ride" : "Great Pumpkin Coaster",
+    "time" : "2016-08-05T00:43:59.656Z"
+  }, {
+    "person" : "Jenny",
+    "ride" : "Great Pumpkin Coaster",
+    "time" : "2016-08-05T00:43:59.656Z"
+  }, {
+    "person" : "Ally",
+    "ride" : "Great Pumpkin Coaster",
+    "time" : "2016-08-05T00:43:59.656Z"
+  }, {
+    "person" : "Ryan",
+    "ride" : "Great Pumpkin Coaster",
+    "time" : "2016-08-05T00:43:59.656Z"
+  }, {
+    "person" : "Logan",
+    "ride" : "Great Pumpkin Coaster",
+    "time" : "2016-08-05T00:43:59.656Z"
+  }, {
+    "person" : "Nolan",
+    "ride" : "Great Pumpkin Coaster",
+    "time" : "2016-08-05T00:43:59.656Z"
+  }, {
+    "person" : "Nolan",
+    "ride" : "Peanuts 500",
+    "time" : "2016-08-05T00:56:58.266Z"
+  }, {
+    "person" : "Jenny",
+    "ride" : "Surf Dog",
+    "time" : "2016-08-05T01:08:22.786Z"
+  }, {
+    "person" : "Ally",
+    "ride" : "Surf Dog",
+    "time" : "2016-08-05T01:08:22.786Z"
+  }, {
+    "person" : "Ryan",
+    "ride" : "Surf Dog",
+    "time" : "2016-08-05T01:08:22.786Z"
+  }, {
+    "person" : "Logan",
+    "ride" : "Surf Dog",
+    "time" : "2016-08-05T01:08:22.786Z"
+  }, {
+    "person" : "Nolan",
+    "ride" : "Linus' Beetle Bugs",
+    "time" : "2016-08-05T01:08:31.896Z"
+  }, {
+    "person" : "Jenny",
+    "ride" : "K.I. and Miami Valley Railroad",
+    "time" : "2016-08-05T01:11:03.173Z"
+  }, {
+    "person" : "Logan",
+    "ride" : "K.I. and Miami Valley Railroad",
+    "time" : "2016-08-05T01:11:03.173Z"
+  }, {
+    "person" : "Nolan",
+    "ride" : "K.I. and Miami Valley Railroad",
+    "time" : "2016-08-05T01:11:03.173Z"
+  }, {
+    "person" : "Logan",
+    "ride" : "Linus' Beetle Bugs",
+    "time" : "2016-08-05T01:14:41.020Z"
+  }, {
+    "person" : "Nolan",
+    "ride" : "Linus' Beetle Bugs",
+    "time" : "2016-08-05T01:14:41.020Z"
+  }, {
+    "person" : "Tim",
+    "ride" : "Snoopy's Space Buggies",
+    "time" : "2016-08-05T01:24:11.258Z"
+  }, {
+    "person" : "Ally",
+    "ride" : "Snoopy's Space Buggies",
+    "time" : "2016-08-05T01:24:11.258Z"
+  }, {
+    "person" : "Logan",
+    "ride" : "Snoopy's Space Buggies",
+    "time" : "2016-08-05T01:24:11.258Z"
+  }, {
+    "person" : "Nolan",
+    "ride" : "Snoopy's Space Buggies",
+    "time" : "2016-08-05T01:24:11.258Z"
+  }, {
+    "person" : "Tim",
+    "ride" : "Kite Eating Tree",
+    "time" : "2016-08-05T01:34:20.842Z"
+  }, {
+    "person" : "Ally",
+    "ride" : "Kite Eating Tree",
+    "time" : "2016-08-05T01:34:20.842Z"
+  }, {
+    "person" : "Logan",
+    "ride" : "Kite Eating Tree",
+    "time" : "2016-08-05T01:34:20.842Z"
+  }, {
+    "person" : "Nolan",
+    "ride" : "Kite Eating Tree",
+    "time" : "2016-08-05T01:34:20.842Z"
+  }, {
+    "person" : "Jenny",
+    "ride" : "Vortex",
+    "time" : "2016-08-05T01:34:35.966Z"
+  }, {
+    "person" : "Ryan",
+    "ride" : "Vortex",
+    "time" : "2016-08-05T01:34:35.966Z"
+  }, {
+    "person" : "Tim",
+    "ride" : "Zephyr",
+    "time" : "2016-08-05T01:57:53.733Z"
+  }, {
+    "person" : "Logan",
+    "ride" : "Joe Cool's Dodgem School",
+    "time" : "2016-10-09T01:49:24.418Z"
+  }, {
+    "person" : "Nolan",
+    "ride" : "Joe Cool's Dodgem School",
+    "time" : "2016-10-09T01:49:24.418Z"
+  }, {
+    "person" : "Logan",
+    "ride" : "Snoopy vs Red Barron",
+    "time" : "2016-10-09T01:49:40.106Z"
+  }, {
+    "person" : "Nolan",
+    "ride" : "Snoopy vs Red Barron",
+    "time" : "2016-10-09T01:49:40.106Z"
+  }, {
+    "person" : "Logan",
+    "ride" : "Peanuts 500",
+    "time" : "2016-10-09T01:49:47.166Z"
+  }, {
+    "person" : "Nolan",
+    "ride" : "Peanuts 500",
+    "time" : "2016-10-09T01:49:47.166Z"
+  }, {
+    "person" : "Tim",
+    "ride" : "K.I. and Miami Valley Railroad",
+    "time" : "2016-10-09T01:50:00.635Z"
+  }, {
+    "person" : "Jenny",
+    "ride" : "K.I. and Miami Valley Railroad",
+    "time" : "2016-10-09T01:50:00.635Z"
+  }, {
+    "person" : "Ally",
+    "ride" : "K.I. and Miami Valley Railroad",
+    "time" : "2016-10-09T01:50:00.635Z"
+  }, {
+    "person" : "Ryan",
+    "ride" : "K.I. and Miami Valley Railroad",
+    "time" : "2016-10-09T01:50:00.635Z"
+  }, {
+    "person" : "Logan",
+    "ride" : "K.I. and Miami Valley Railroad",
+    "time" : "2016-10-09T01:50:00.635Z"
+  }, {
+    "person" : "Nolan",
+    "ride" : "K.I. and Miami Valley Railroad",
+    "time" : "2016-10-09T01:50:00.635Z"
+  }, {
+    "person" : "Jenny",
+    "ride" : "Great Pumpkin Coaster",
+    "time" : "2016-10-09T01:50:16.335Z"
+  }, {
+    "person" : "Logan",
+    "ride" : "Great Pumpkin Coaster",
+    "time" : "2016-10-09T01:50:16.335Z"
+  }, {
+    "person" : "Nolan",
+    "ride" : "Great Pumpkin Coaster",
+    "time" : "2016-10-09T01:50:16.335Z"
+  }, {
+    "person" : "Jenny",
+    "ride" : "Backlot Stunt Coaster",
+    "time" : "2016-10-09T01:50:33.664Z"
+  }, {
+    "person" : "Logan",
+    "ride" : "Backlot Stunt Coaster",
+    "time" : "2016-10-09T01:50:33.664Z"
+  }, {
+    "person" : "Nolan",
+    "ride" : "Backlot Stunt Coaster",
+    "time" : "2016-10-09T01:50:33.664Z"
+  }, {
+    "person" : "Tim",
+    "ride" : "Beast",
+    "time" : "2016-10-09T01:51:26.669Z"
+  }, {
+    "person" : "Ally",
+    "ride" : "Beast",
+    "time" : "2016-10-09T01:51:26.669Z"
+  }, {
+    "person" : "Ryan",
+    "ride" : "Beast",
+    "time" : "2016-10-09T01:51:26.669Z"
+  }, {
+    "person" : "Tim",
+    "ride" : "Dinosaurs Alive",
+    "time" : "2016-10-09T01:51:40.111Z"
+  }, {
+    "person" : "Jenny",
+    "ride" : "Dinosaurs Alive",
+    "time" : "2016-10-09T01:51:40.111Z"
+  }, {
+    "person" : "Ally",
+    "ride" : "Dinosaurs Alive",
+    "time" : "2016-10-09T01:51:40.111Z"
+  }, {
+    "person" : "Ryan",
+    "ride" : "Dinosaurs Alive",
+    "time" : "2016-10-09T01:51:40.111Z"
+  }, {
+    "person" : "Logan",
+    "ride" : "Dinosaurs Alive",
+    "time" : "2016-10-09T01:51:40.111Z"
+  }, {
+    "person" : "Nolan",
+    "ride" : "Dinosaurs Alive",
+    "time" : "2016-10-09T01:51:40.111Z"
+  }, {
+    "person" : "Tim",
+    "ride" : "Beast",
+    "time" : "2016-10-16T19:50:02.884Z"
+  }, {
+    "person" : "Ally",
+    "ride" : "Beast",
+    "time" : "2016-10-16T19:50:02.884Z"
+  }, {
+    "person" : "Ryan",
+    "ride" : "Beast",
+    "time" : "2016-10-16T19:50:02.884Z"
+  }, {
+    "person" : "Tim",
+    "ride" : "Backlot Stunt Coaster",
+    "time" : "2016-10-16T20:28:29.071Z"
+  }, {
+    "person" : "Ally",
+    "ride" : "Backlot Stunt Coaster",
+    "time" : "2016-10-16T20:28:29.071Z"
+  }, {
+    "person" : "Ryan",
+    "ride" : "Backlot Stunt Coaster",
+    "time" : "2016-10-16T20:28:29.071Z"
+  }, {
+    "person" : "Tim",
+    "ride" : "Dodgem",
+    "time" : "2016-10-16T20:30:54.388Z"
+  }, {
+    "person" : "Ally",
+    "ride" : "Dodgem",
+    "time" : "2016-10-16T20:30:54.388Z"
+  }, {
+    "person" : "Ryan",
+    "ride" : "Dodgem",
+    "time" : "2016-10-16T20:30:54.388Z"
+  }, {
+    "person" : "Tim",
+    "ride" : "Racer",
+    "time" : "2016-10-16T21:14:10.840Z"
+  }, {
+    "person" : "Ally",
+    "ride" : "Racer",
+    "time" : "2016-10-16T21:14:10.840Z"
+  }, {
+    "person" : "Ryan",
+    "ride" : "Racer",
+    "time" : "2016-10-16T21:14:10.840Z"
+  }, {
+    "person" : "Tim",
+    "ride" : "Viking Fury",
+    "time" : "2016-10-16T21:14:34.661Z"
+  }, {
+    "person" : "Ally",
+    "ride" : "Viking Fury",
+    "time" : "2016-10-16T21:14:34.661Z"
+  }, {
+    "person" : "Ryan",
+    "ride" : "Viking Fury",
+    "time" : "2016-10-16T21:14:34.661Z"
+  }, {
+    "person" : "Tim",
+    "ride" : "K.I. and Miami Valley Railroad",
+    "time" : "2016-10-16T21:35:39.159Z"
+  }, {
+    "person" : "Jenny",
+    "ride" : "K.I. and Miami Valley Railroad",
+    "time" : "2016-10-16T21:35:39.159Z"
+  }, {
+    "person" : "Ally",
+    "ride" : "K.I. and Miami Valley Railroad",
+    "time" : "2016-10-16T21:35:39.159Z"
+  }, {
+    "person" : "Ryan",
+    "ride" : "K.I. and Miami Valley Railroad",
+    "time" : "2016-10-16T21:35:39.159Z"
+  }, {
+    "person" : "Logan",
+    "ride" : "K.I. and Miami Valley Railroad",
+    "time" : "2016-10-16T21:35:39.159Z"
+  }, {
+    "person" : "Nolan",
+    "ride" : "K.I. and Miami Valley Railroad",
+    "time" : "2016-10-16T21:35:39.159Z"
+  }, {
+    "person" : "Tim",
+    "ride" : "Surf Dog",
+    "time" : "2016-10-16T21:56:27.890Z"
+  }, {
+    "person" : "Ally",
+    "ride" : "Surf Dog",
+    "time" : "2016-10-16T21:56:27.890Z"
+  }, {
+    "person" : "Ryan",
+    "ride" : "Surf Dog",
+    "time" : "2016-10-16T21:56:27.890Z"
+  }, {
+    "person" : "Logan",
+    "ride" : "Surf Dog",
+    "time" : "2016-10-16T21:56:27.890Z"
+  }, {
+    "person" : "Logan",
+    "ride" : "Joe Cool's Dodgem School",
+    "time" : "2016-10-16T19:33:16.884Z"
+  }, {
+    "person" : "Nolan",
+    "ride" : "Joe Cool's Dodgem School",
+    "time" : "2016-10-16T19:33:16.884Z"
+  }, {
+    "person" : "Jenny",
+    "ride" : "Great Pumpkin Coaster",
+    "time" : "2016-10-16T20:00:59.078Z"
+  }, {
+    "person" : "Logan",
+    "ride" : "Great Pumpkin Coaster",
+    "time" : "2016-10-16T20:00:59.078Z"
+  }, {
+    "person" : "Nolan",
+    "ride" : "Great Pumpkin Coaster",
+    "time" : "2016-10-16T20:00:59.078Z"
+  }, {
+    "person" : "Jenny",
+    "ride" : "Woodstock's Whirlybirds",
+    "time" : "2016-10-16T20:40:05.959Z"
+  }, {
+    "person" : "Logan",
+    "ride" : "Woodstock's Whirlybirds",
+    "time" : "2016-10-16T20:40:05.959Z"
+  }, {
+    "person" : "Nolan",
+    "ride" : "Woodstock's Whirlybirds",
+    "time" : "2016-10-16T20:40:05.959Z"
+  }, {
+    "person" : "Logan",
+    "ride" : "Snoopy vs Red Barron",
+    "time" : "2016-10-16T21:02:07.263Z"
+  }, {
+    "person" : "Jenny",
+    "ride" : "Snoopy's Space Buggies",
+    "time" : "2016-10-16T22:03:41.116Z"
+  }, {
+    "person" : "Nolan",
+    "ride" : "Snoopy's Space Buggies",
+    "time" : "2016-10-16T22:03:41.116Z"
+  }, {
+    "person" : "Jenny",
+    "ride" : "Woodstock Gliders",
+    "time" : "2016-10-16T23:38:49.673Z"
+  }, {
+    "person" : "Nolan",
+    "ride" : "Woodstock Gliders",
+    "time" : "2016-10-16T23:38:49.673Z"
+  }, {
+    "person" : "Jenny",
+    "ride" : "Adventure Express",
+    "time" : "2016-10-16T23:39:01.477Z"
+  }, {
+    "person" : "Ally",
+    "ride" : "Adventure Express",
+    "time" : "2016-10-16T23:39:01.477Z"
+  }, {
+    "person" : "Ryan",
+    "ride" : "Adventure Express",
+    "time" : "2016-10-16T23:39:01.477Z"
+  } ]
+}
