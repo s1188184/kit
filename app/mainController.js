@@ -1,4 +1,5 @@
-app.controller('MainController', ['$scope', '$rootScope', '$http', '$firebaseObject', '$firebaseAuth', '$firebaseArray', function($scope, $rootScope, $http, $firebaseObject, $firebaseAuth, $firebaseArray) {
+app.controller('MainController', ['$scope', '$rootScope', '$http', '$firebaseObject', '$firebaseArray', 'Auth',  
+function($scope, $rootScope, $http, $firebaseObject, $firebaseArray, Auth) {
 
 
     var kit = this;
@@ -31,25 +32,12 @@ app.controller('MainController', ['$scope', '$rootScope', '$http', '$firebaseObj
 
     kit.init = function() {
 
-
-        var auth = $firebaseAuth();
-
-        // login with Google
-        auth.$signInWithPopup("google").then(function(firebaseUser) {
-            console.log("Signed in as:", firebaseUser.uid);
-        }).catch(function(error) {
-            console.log("Authentication failed:", error);
-        });
-
+        // 3-way bind $rootScope.personRides to firebase.
         var ref = firebase.database().ref().child("2017").child("personRides");
         $rootScope.personRides = $firebaseArray(ref);
-        
-
-
 
 
         kit.updateLocation();
-
 
     };
 
@@ -109,25 +97,26 @@ app.controller('MainController', ['$scope', '$rootScope', '$http', '$firebaseObj
 
     kit.enterRide = function() {
 
+        var submitter = Auth.$getAuth().displayName;
         var rightNow = firebase.database.ServerValue.TIMESTAMP;
 
         if (kit.T) {
-            $rootScope.personRides.$add({person: 'Tim', ride: kit.ride, time: rightNow});
+            $rootScope.personRides.$add({person: 'Tim', ride: kit.ride, time: rightNow, submitter: submitter});
         }
         if (kit.J) {
-            $rootScope.personRides.$add({person: 'Jenny', ride: kit.ride, time: rightNow});
+            $rootScope.personRides.$add({person: 'Jenny', ride: kit.ride, time: rightNow, submitter: submitter});
         }
         if (kit.A) {
-            $rootScope.personRides.$add({person: 'Ally', ride: kit.ride, time: rightNow});
+            $rootScope.personRides.$add({person: 'Ally', ride: kit.ride, time: rightNow, submitter: submitter});
         }
         if (kit.R) {
-            $rootScope.personRides.$add({person: 'Ryan', ride: kit.ride, time: rightNow});
+            $rootScope.personRides.$add({person: 'Ryan', ride: kit.ride, time: rightNow, submitter: submitter});
         }
         if (kit.L) {
-            $rootScope.personRides.$add({person: 'Logan', ride: kit.ride, time: rightNow});
+            $rootScope.personRides.$add({person: 'Logan', ride: kit.ride, time: rightNow, submitter: submitter});
         }
         if (kit.N) {
-            $rootScope.personRides.$add({person: 'Nolan', ride: kit.ride, time: rightNow});
+            $rootScope.personRides.$add({person: 'Nolan', ride: kit.ride, time: rightNow, submitter: submitter});
         }
 
         kit.resetForm();
