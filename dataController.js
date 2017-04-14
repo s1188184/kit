@@ -1,10 +1,8 @@
 app.controller('DataController', ['$scope', '$rootScope', '$filter', function($scope, $rootScope, $filter) {
 
-    // var kit = this;
     this.name = 'DataController';
 
     $scope.pageClass = 'page-data';
-
 
     $scope.sortType = 'time';
     $scope.sortReverse = true;
@@ -45,8 +43,6 @@ app.controller('DataController', ['$scope', '$rootScope', '$filter', function($s
        $scope.setFilter(); 
     });
 
-
-
     $scope.formatDate = function(strDate) {
         var myMoment = moment(strDate);
         return myMoment.format('MM/DD/YY');
@@ -58,18 +54,14 @@ app.controller('DataController', ['$scope', '$rootScope', '$filter', function($s
     };
 
     $scope.filterByDate = function(strDate) {
-        // TODO
         $rootScope.filteredRides = $filter('filter')($scope.personRides, strDate);
-//            $rootScope.filterTerm.time = strDate;
     };
-
 
     $scope.clearAll = function() {
         var confirmDelete = window.confirm('Are you sure you want to permanently delete all records?');
         if (confirmDelete) {
             localStorage.clear();
             $rootScope.personRides = [];
-            //kit.resetForm();
         }
     }
 

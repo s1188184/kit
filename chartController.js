@@ -29,27 +29,7 @@ app.controller('ChartsController', ['$scope', '$rootScope', '$http', function($s
         }
         
         
-        
-        
-//        // first, sort results by time
-//        var sortedFilteredRides = [];
-//        for (var r in $rootScope.filteredRides) {
-//            sortedFilteredRides.push([r, $rootScope.filteredRides[r]]);
-//        }
-//        sortedFilteredRides.sort(function(a, b) {
-//            return b[1] - a[1];
-//        });
 
-        
-        
-        
-
-
-
-//        for (var i=0; i < $rootScope.personRides.length; i++) {
-//            var ride = $rootScope.personRides[i].ride;
-//            var person = $rootScope.personRides[i].person;
-//            var visitDay = moment($rootScope.personRides[i].time).format('MM/DD/YY');
         for (var i=0; i < $rootScope.filteredRides.length; i++) {
             var ride = $rootScope.filteredRides[i].ride;
             var person = $rootScope.filteredRides[i].person;

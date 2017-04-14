@@ -1,5 +1,3 @@
-<!--ng-init="kit.init()"-->
-
     <div class="row">
         <div class="col-xs-8">
             <select name="ride" class="ride-picker form-control" ng-model="kit.ride">
@@ -13,38 +11,30 @@
 
     <div class="row">
             <div class="col-xs-4">
-                <!--<button class="btn btn-info btn-lg btn-block" data-toggle="button" aria-pressed="false" autocomplete="off" ng-model="T">Tim</button>-->
                 <label class="btn btn-info btn-lg btn-block"><input class="pcheck" type="checkbox" autocomplete="off" ng-model="kit.T"><i ng-show="kit.T" class="fa fa-check" aria-hidden="true">&nbsp;</i>Tim</label>
             </div>
             <div class="col-xs-4">
-                <!--<button class="btn btn-info btn-lg btn-block" data-toggle="button" aria-pressed="false" autocomplete="off" ng-model="J">Jenny</button>-->
                 <label class="btn btn-info btn-lg btn-block"><input class="pcheck" type="checkbox" autocomplete="off" ng-model="kit.J"><i ng-show="kit.J" class="fa fa-check" aria-hidden="true">&nbsp;</i>Jenny</label>
             </div>
             <div class="col-xs-4">
-                <!--<button class="btn btn-info btn-lg btn-block" data-toggle="button" aria-pressed="false" autocomplete="off" ng-model="A">Ally</button>-->
                 <label class="btn btn-info btn-lg btn-block"><input class="pcheck" type="checkbox" autocomplete="off" ng-model="kit.A"><i ng-show="kit.A" class="fa fa-check" aria-hidden="true">&nbsp;</i>Ally</label>
             </div>
     </div>
 
     <div class="row">
             <div class="col-xs-4">
-                <!--<button class="btn btn-info btn-lg btn-block" data-toggle="button" aria-pressed="false" autocomplete="off" ng-model="R">Ryan</button>-->
                 <label class="btn btn-info btn-lg btn-block"><input class="pcheck" type="checkbox" autocomplete="off" ng-model="kit.R"><i ng-show="kit.R" class="fa fa-check" aria-hidden="true">&nbsp;</i>Ryan</label>
             </div>
             <div class="col-xs-4">
-                <!--<button class="btn btn-info btn-lg btn-block" data-toggle="button" aria-pressed="false" autocomplete="off" ng-model="L">Logan</button>-->
                 <label class="btn btn-info btn-lg btn-block"><input class="pcheck" type="checkbox" autocomplete="off" ng-model="kit.L"><i ng-show="kit.L" class="fa fa-check" aria-hidden="true">&nbsp;</i>Logan</label>
             </div>
             <div class="col-xs-4">
-                <!--<button class="btn btn-info btn-lg btn-block" data-toggle="button" aria-pressed="false" autocomplete="off" ng-model="N">Nolan</button>-->
                 <label class="btn btn-info btn-lg btn-block"><input class="pcheck" type="checkbox" autocomplete="off" ng-model="kit.N"><i ng-show="kit.N" class="fa fa-check" aria-hidden="true">&nbsp;</i>Nolan</label>
             </div>
     </div>
 
     <div class="row">
         <div class="col-xs-8">
-            <!--<button class="btn btn-primary btn-lg btn-block" ng-click="kit.enterRide()"><i class="fa fa-space-shuttle fa-lg" aria-hidden="true"></i>&nbsp;&nbsp;Enter Ride</button>-->
-            <!--<button class="btn btn-primary btn-lg btn-block" data-toggle="modal" data-target="#myModal"><i class="fa fa-space-shuttle fa-lg" aria-hidden="true"></i>&nbsp;&nbsp;Enter Ride</button>-->
             <button class="btn btn-primary btn-lg btn-block" ng-click="kit.openModal()"><i class="fa fa-space-shuttle fa-lg" aria-hidden="true"></i>&nbsp;&nbsp;Enter Ride</button>
         </div>
         <div class="col-xs-4">
@@ -54,7 +44,6 @@
 
     <div class="row">
         <div class="col-xs-12">
-            <!--<button class="btn btn-primary btn-lg btn-block" ng-click="kit.enterRide()">Enter Ride</button>-->
             <a class="btn btn-default btn-lg btn-block" href="#!data"><i class="fa fa-list fa-lg" aria-hidden="true"></i>&nbsp;&nbsp;{{personRides.length}} Person Rides</a>
         </div>
     </div>
@@ -64,22 +53,12 @@
 
 
 
-<!--<ul>
-    <li ng-repeat="ride in personRides2017">{{ ride.text }}</li>
-</ul>
-<form ng-submit="kit.addMessage()">
-    <input ng-model="kit.newMessageText" />
-    <button type="submit">Add Message</button>
-</form>-->
 
 
 <!-- Modal -->
 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
     <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
-            <!--<div class="modal-header">-->
-                <!--<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>-->
-            <!--</div>-->
             <div class="modal-body">
                 <h4 class="modal-title">Add {{kit.currentRiderCount}} {{kit.ride}} riders?'</h4>
                 <button type="button" class="btn btn-warning btn-block btn-lg" style="padding:50px" data-dismiss="modal" ng-click="kit.resetForm()">No</button>
