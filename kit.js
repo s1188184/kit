@@ -3,7 +3,7 @@
 // angular.module('KitModule', [])
 //     .controller('KitController', function() {
 
-var app = angular.module('KitModule', ['ngRoute', 'ngAnimate', 'ngTouch', 'chart.js', 'ui.odometer'])
+var app = angular.module('KitModule', ['ngRoute', 'ngAnimate', 'ngTouch', 'chart.js', 'ui.odometer','firebase'])
 
     .config(function($routeProvider) {
         $routeProvider

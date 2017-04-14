@@ -1,4 +1,4 @@
-app.controller('MainController', ['$scope', '$rootScope', '$http', function($scope, $rootScope, $http) {
+app.controller('MainController', ['$scope', '$rootScope', '$http', '$firebaseObject', '$firebaseAuth', '$firebaseArray', function($scope, $rootScope, $http, $firebaseObject, $firebaseAuth, $firebaseArray) {
 
 
     var kit = this;
@@ -46,11 +46,33 @@ app.controller('MainController', ['$scope', '$rootScope', '$http', function($sco
 
 
         // Load from firebase
-//            $http.get('https://kings-island-tracker.firebaseio.com/personRides.json')
-        $http.get('https://kings-island-tracker.firebaseio.com/personRides.json')
-        .then(function(response) {
-            $rootScope.personRides = response.data;
+        // $http.get('https://kings-island-tracker.firebaseio.com/2016/personRides.json')
+        // .then(function(response) {
+        //     $rootScope.personRides = response.data;
+        // });
+
+
+        var auth = $firebaseAuth();
+
+        // login with Facebook
+        auth.$signInWithPopup("google").then(function(firebaseUser) {
+            console.log("Signed in as:", firebaseUser.uid);
+            // alert("Signed in as " + firebaseUser.uid);
+        }).catch(function(error) {
+            console.log("Authentication failed:", error);
+            // alert("Authentication failed.");
         });
+
+        // Test 3-way-binding from firebase
+        var ref = firebase.database().ref().child("2017").child("personRides");
+        // download the data into a local object
+        // var syncObject = $firebaseObject(ref);
+        // syncObject.$bindTo($rootScope, "serverData");
+        $rootScope.personRides = $firebaseArray(ref);
+        
+
+
+
 
 
         // Load location.
@@ -58,6 +80,12 @@ app.controller('MainController', ['$scope', '$rootScope', '$http', function($sco
 
 
     };
+
+    kit.addMessage = function() {
+        $rootScope.personRides2017.$add({
+            text: kit.newMessageText
+        });
+    };    
 
     kit.updateLocation = function() {
         console.log("Updating location...");
@@ -125,6 +153,7 @@ app.controller('MainController', ['$scope', '$rootScope', '$http', function($sco
             {name: 'Grand Carousel', distance: getDistance(myLat, myLon, 39.343220, -84.266148)},
             {name: 'K.I. and Miami Valley Railroad', distance: getDistance(myLat, myLon, 39.340925, -84.267922)},
             {name: 'Monster', distance: getDistance(myLat, myLon, 39.343357, -84.264792)},
+            {name: 'Mystic Timbers', distance: getDistance(myLat, myLon, 39.343357, -84.264792)},
             {name: 'Racer', distance: getDistance(myLat, myLon, 39.343644, -84.264703)},
             {name: 'Scrambler', distance: getDistance(myLat, myLon, 39.343119, -84.265431)},
             {name: 'Shake, Rattle, and Roll', distance: getDistance(myLat, myLon, 39.341196, -84.264712)},
@@ -141,39 +170,46 @@ app.controller('MainController', ['$scope', '$rootScope', '$http', function($sco
     kit.enterRide = function() {
 
         var now = new Date();
+        now = JSON.stringify(now);
         //var now = d.toLocaleDateString() + ', ' + d.toLocaleTimeString();
 
 
         if (kit.T) {
-            $rootScope.personRides.push({person: 'Tim', ride: kit.ride, time: now});
+            // $rootScope.personRides.push({person: 'Tim', ride: kit.ride, time: now});
+            $rootScope.personRides.$add({person: 'Tim', ride: kit.ride, time: now});
         }
         if (kit.J) {
-            $rootScope.personRides.push({person: 'Jenny', ride: kit.ride, time: now});
+            // $rootScope.personRides.push({person: 'Jenny', ride: kit.ride, time: now});
+            $rootScope.personRides.$add({person: 'Jenny', ride: kit.ride, time: now});
         }
         if (kit.A) {
-            $rootScope.personRides.push({person: 'Ally', ride: kit.ride, time: now});
+            // $rootScope.personRides.push({person: 'Ally', ride: kit.ride, time: now});
+            $rootScope.personRides.$add({person: 'Ally', ride: kit.ride, time: now});
         }
         if (kit.R) {
-            $rootScope.personRides.push({person: 'Ryan', ride: kit.ride, time: now});
+            // $rootScope.personRides.push({person: 'Ryan', ride: kit.ride, time: now});
+            $rootScope.personRides.$add({person: 'Ryan', ride: kit.ride, time: now});
         }
         if (kit.L) {
-            $rootScope.personRides.push({person: 'Logan', ride: kit.ride, time: now});
+            // $rootScope.personRides.push({person: 'Logan', ride: kit.ride, time: now});
+            $rootScope.personRides.$add({person: 'Logan', ride: kit.ride, time: now});
         }
         if (kit.N) {
-            $rootScope.personRides.push({person: 'Nolan', ride: kit.ride, time: now});
+            // $rootScope.personRides.push({person: 'Nolan', ride: kit.ride, time: now});
+            $rootScope.personRides.$add({person: 'Nolan', ride: kit.ride, time: now});
         }
 
         // TODO: Need to add to firebase instead of localStorage
-        localStorage.setItem('kitRides', JSON.stringify($rootScope.personRides));
-        $http.post('https://kings-island-tracker.firebaseio.com/personRides.json?auth=AIzaSyC7hxPayceWMopNlv98izCjmr9IHbx6RiA',{person: 'Nolan', ride: kit.ride, time: now})
-        .then(
-            function(response) {
-                console.log('post successfull!');
-            },
-            function(error) {
-                console.log(error);
-            }
-        );
+        // localStorage.setItem('kitRides', JSON.stringify($rootScope.personRides));
+        // $http.post('https://kings-island-tracker.firebaseio.com/personRides.json?auth=AIzaSyC7hxPayceWMopNlv98izCjmr9IHbx6RiA',{person: 'Nolan', ride: kit.ride, time: now})
+        // .then(
+        //     function(response) {
+        //         console.log('post successfull!');
+        //     },
+        //     function(error) {
+        //         console.log(error);
+        //     }
+        // );
 
         kit.resetForm();
 
