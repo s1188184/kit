@@ -176,27 +176,27 @@ app.controller('MainController', ['$scope', '$rootScope', '$http', '$firebaseObj
 
         if (kit.T) {
             // $rootScope.personRides.push({person: 'Tim', ride: kit.ride, time: now});
-            $rootScope.personRides.$add({person: 'Tim', ride: kit.ride, time: now});
+            $rootScope.personRides.$add({person: 'Tim', ride: kit.ride, time: firebase.database.ServerValue.TIMESTAMP});
         }
         if (kit.J) {
             // $rootScope.personRides.push({person: 'Jenny', ride: kit.ride, time: now});
-            $rootScope.personRides.$add({person: 'Jenny', ride: kit.ride, time: now});
+            $rootScope.personRides.$add({person: 'Jenny', ride: kit.ride, time: firebase.database.ServerValue.TIMESTAMP});
         }
         if (kit.A) {
             // $rootScope.personRides.push({person: 'Ally', ride: kit.ride, time: now});
-            $rootScope.personRides.$add({person: 'Ally', ride: kit.ride, time: now});
+            $rootScope.personRides.$add({person: 'Ally', ride: kit.ride, time: firebase.database.ServerValue.TIMESTAMP});
         }
         if (kit.R) {
             // $rootScope.personRides.push({person: 'Ryan', ride: kit.ride, time: now});
-            $rootScope.personRides.$add({person: 'Ryan', ride: kit.ride, time: now});
+            $rootScope.personRides.$add({person: 'Ryan', ride: kit.ride, time: firebase.database.ServerValue.TIMESTAMP});
         }
         if (kit.L) {
             // $rootScope.personRides.push({person: 'Logan', ride: kit.ride, time: now});
-            $rootScope.personRides.$add({person: 'Logan', ride: kit.ride, time: now});
+            $rootScope.personRides.$add({person: 'Logan', ride: kit.ride, time: firebase.database.ServerValue.TIMESTAMP});
         }
         if (kit.N) {
             // $rootScope.personRides.push({person: 'Nolan', ride: kit.ride, time: now});
-            $rootScope.personRides.$add({person: 'Nolan', ride: kit.ride, time: now});
+            $rootScope.personRides.$add({person: 'Nolan', ride: kit.ride, time: firebase.database.ServerValue.TIMESTAMP});
         }
 
         // TODO: Need to add to firebase instead of localStorage
