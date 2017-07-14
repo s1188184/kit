@@ -51,6 +51,7 @@ function($scope, $rootScope, $http, $firebaseObject, $firebaseArray, Auth) {
 
     kit.initRides = function(myLat, myLon) {
         kit.rides = [
+            {name: 'Boo Blasters', distance: getDistance(myLat, myLon, 39.342698, -84.268737)},
             {name: 'Character Carousel', distance: getDistance(myLat, myLon, 39.342698, -84.268737)},
             {name: 'Charlie Brown\'s Wind Up', distance: getDistance(myLat, myLon, 39.343267, -84.268870)},
             {name: 'Flying Ace Arial Chase', distance: getDistance(myLat, myLon, 39.341797, -84.269087)},
