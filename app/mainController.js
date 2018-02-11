@@ -33,7 +33,7 @@ function($scope, $rootScope, $http, $firebaseObject, $firebaseArray, Auth) {
     kit.init = function() {
 
         // 3-way bind $rootScope.personRides to firebase.
-        var ref = firebase.database().ref().child("2017").child("personRides");
+        var ref = firebase.database().ref().child("2018").child("personRides");
         $rootScope.personRides = $firebaseArray(ref);
 
 
