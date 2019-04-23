@@ -33,7 +33,7 @@ function($scope, $rootScope, $http, $firebaseObject, $firebaseArray, Auth) {
     kit.init = function() {
 
         // 3-way bind $rootScope.personRides to firebase.
-        var ref = firebase.database().ref().child("2018").child("personRides");
+        var ref = firebase.database().ref().child("2019").child("personRides");
         $rootScope.personRides = $firebaseArray(ref);
 
 
@@ -80,15 +80,14 @@ function($scope, $rootScope, $http, $firebaseObject, $firebaseArray, Auth) {
             {name: 'Congo Falls', distance: getDistance(myLat, myLon, 39.346119, -84.266946)},
             {name: 'Delirium', distance: getDistance(myLat, myLon, 0, 0)},
             {name: 'Diamondback', distance: getDistance(myLat, myLon, 39.342095, -84.267469)},
-            {name: 'Dinosaurs Alive', distance: getDistance(myLat, myLon, 39.341162, -84.263155)},
             {name: 'Dodgem', distance: getDistance(myLat, myLon, 39.342627, -84.265356)},
             {name: 'Drop Tower', distance: getDistance(myLat, myLon, 0, 0)},
             {name: 'Eiffel Tower', distance: getDistance(myLat, myLon, 39.343308, -84.266937)},
-            {name: 'Firehawk', distance: getDistance(myLat, myLon, 0, 0)},
             {name: 'Flight of Fear', distance: getDistance(myLat, myLon, 0, 0)},
             {name: 'Grand Carousel', distance: getDistance(myLat, myLon, 39.343220, -84.266148)},
             {name: 'Invertigo', distance: getDistance(myLat, myLon, 0, 0)},
             {name: 'K.I. and Miami Valley Railroad', distance: getDistance(myLat, myLon, 39.340925, -84.267922)},
+            {name: 'Kings Mills Antique Autos', distance: getDistance(myLat, myLon, 39.341162, -84.263155)},
             {name: 'Monster', distance: getDistance(myLat, myLon, 39.343357, -84.264792)},
             {name: 'Mystic Timbers', distance: getDistance(myLat, myLon, 39.343357, -84.264792)},
             {name: 'Racer', distance: getDistance(myLat, myLon, 39.343644, -84.264703)},
