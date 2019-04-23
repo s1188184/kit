@@ -58,7 +58,7 @@ var app = angular.module('KitModule', ['ngRoute', 'ngAnimate', 'ngTouch', 'chart
             personRides,
             setPersonRides: function() { 
                 // 3-way bind $rootScope.personRides to firebase.
-                var ref = firebase.database().ref().child("2018").child("personRides");
+                var ref = firebase.database().ref().child("2019").child("personRides");
                 personRides = $firebaseArray(ref);
             }
         };
